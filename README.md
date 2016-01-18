@@ -1,4 +1,4 @@
-# ColorBrewer
+# ColorBrewer [![Build Status](https://travis-ci.org/manolovn/colorbrewer.svg?branch=master)](https://travis-ci.org/manolovn/colorbrewer)
 
 Color palettes for your projects
 
