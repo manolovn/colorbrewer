@@ -1,0 +1,22 @@
+
+buildscript {
+    repositories {
+        jcenter()
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:1.5.0'
+    }
+}
+
+allprojects {
+    version = VERSION_NAME
+    group = GROUP
+
+    repositories {
+        jcenter()
+    }
+}
+
+def isReleaseBuild() {
+    return version.contains("SNAPSHOT") == false
+}
