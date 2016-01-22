@@ -2,8 +2,6 @@ package com.manolovn.colorbrewer;
 
 import android.graphics.Color;
 
-import org.jetbrains.annotations.NotNull;
-
 import java.util.ArrayList;
 import java.util.List;
 
@@ -479,22 +477,18 @@ public enum ColorBrewer {
         }
     }
 
-    @NotNull
     public static ColorBrewer[] getSequentialColorPalettes(boolean colorBlindSave) {
         return getPalettes(3, colorBlindSave);
     }
 
-    @NotNull
     public static ColorBrewer[] getDivergingColorPalettes(boolean colorBlindSave) {
         return getPalettes(1, colorBlindSave);
     }
 
-    @NotNull
     public static ColorBrewer[] getQualitativeColorPalettes(boolean colorBlindSave) {
         return getPalettes(2, colorBlindSave);
     }
 
-    @NotNull
     private static ColorBrewer[] getPalettes(int paletteType, boolean colorBlindSave) {
         List<ColorBrewer> palettes = new ArrayList<>();
 

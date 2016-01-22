@@ -23,7 +23,6 @@ android {
 
 dependencies {
     compile 'com.android.support:appcompat-v7:23.1.1'
-    compile 'org.jetbrains:annotations:13.0'
 }
 
 task checkstyle(type: Checkstyle) {
