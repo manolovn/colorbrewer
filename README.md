@@ -2,6 +2,23 @@
 
 Color palettes for your projects
 
+# Usage
+
+Add the dependency
+
+```groovy
+dependencies {
+    compile 'com.manolovn:colorbrewer:1.0.0'
+}
+```
+
+There are a lot of different palettes, choose one and explore the API.
+For example, to generate a 20 steps interpolation of Greys palette:
+
+```java
+int[] colors = ColorBrewer.Greys.getColorPalette(20);
+```
+
 # License
 
     Copyright 2015 Manuel Vera Nieto
