@@ -1,4 +1,6 @@
-# ColorBrewer [![Build Status](https://travis-ci.org/manolovn/colorbrewer.svg?branch=master)](https://travis-ci.org/manolovn/colorbrewer)
+# ColorBrewer
+[![Build Status](https://travis-ci.org/manolovn/colorbrewer.svg?branch=master)](https://travis-ci.org/manolovn/colorbrewer)
+[![Maven Central](https://img.shields.io/maven-central/v/com.manolovn/colorbrewer.svg)](https://maven-badges.herokuapp.com/maven-central/com.manolovn/colorbrewer)
 
 Color palettes for your projects
 
